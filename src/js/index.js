@@ -70,8 +70,7 @@ function renderTransaction(transaction) {
     document.querySelector('#transactions').append(container)
 }
 
-async function saveTransaction(ev) {
-    ev.preventDefault()
+async function saveTransaction() {
 
   const id = document.querySelector('#id').value
   const name = document.querySelector('#name').value
